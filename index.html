@@ -281,7 +281,162 @@
                 { t: "Je devrais demander une faveur à Simon car son auto est grande.", c: false },
                 { t: "Je devrais demander un service à Simon car il a une voiture très spacieuse.", c: true }
             ]
-        }
+        } { q: "Мои друзья очень отзывчивы: как только у меня возникает проблема, они тут же бросаются мне на помощь.", 
+          a: [
+            { t: "Mes amis sont serviables : dès que j'ai un souci, ils s'enfuient pour m'aider.", c: false },
+            { t: "Mes amis sont très serviables : dès que j'ai un problème, ils accourent pour m'aider.", c: true },
+            { t: "Mes amis sont très aimables : quand j'ai un problème, ils courent à m'aider.", c: false }
+          ]},
+        { q: "Спасибо за помощь; благодаря вам я значительно облегчила себе жизнь этим переездом.", 
+          a: [
+            { t: "Merci pour ton aide, tu m'enlèves un poids énorme avec ce déménagement.", c: true },
+            { t: "Merci pour l'appui, tu m'as enlevé un lourd paquet avec ce mouvement.", c: false },
+            { t: "Grâce à ton aide, tu m'ôtes une grande charge dans mon déménagement.", c: false }
+          ]},
+        { q: "В эти трудные времена взаимная поддержка может облегчить вашу боль.", 
+          a: [
+            { t: "Dans ces moments durs, l'assistance peut aider votre peine.", c: false },
+            { t: "Pendant ces périodes compliquées, l'entraide doit baisser votre douleur.", c: false },
+            { t: "Dans ces moments difficiles, l'entraide peut soulager votre peine.", c: true }
+          ]},
+        { q: "Ваши слова мне очень помогли; они принесли мне утешение.", 
+          a: [
+            { t: "Tes paroles m'ont fait du bien, elles m'ont apporté du réconfort.", c: true },
+            { t: "Tes mots m'ont rendu service, ils m'ont donné de la consolation.", c: false },
+            { t: "Tes paroles m'ont fait plaisir, elles m'ont offert du confort.", c: false }
+          ]},
+        { q: "Мы здесь, чтобы поддержать наших друзей в это непростое время.", 
+          a: [
+            { t: "Nous sommes là pour rassurer nos amis dans le temps qu'ils vivent.", c: false },
+            { t: "Nous sommes là pour réconforter nos amis dans l'épreuve qu'ils traversent.", c: true },
+            { t: "On est là pour consoler nos amis durant cette difficulté qu'ils ont.", c: false }
+          ]},
+        { q: "Я признаю, что мне сейчас нужна поддержка.", 
+          a: [
+            { t: "Je reconnais bien volontiers que j'ai besoin de soutien en ce moment.", c: true },
+            { t: "J'admets facilement que j'ai besoin d'une assistance actuellement.", c: false },
+            { t: "Je connais bien que le support m'est nécessaire maintenant.", c: false }
+          ]},
+        { q: "Вы можете на него рассчитывать; он окажет вам непоколебимую поддержку.", 
+          a: [
+            { t: "Vous pouvez compter sur lui, il vous donnera un appui sans faute.", c: false },
+            { t: "Comptez sur lui, il vous apportera un appui sans faille.", c: true },
+            { t: "Vous pourriez vous appuyer sur lui, il vous aidera sans cesse.", c: false }
+          ]},
+        { q: "Солидарность и взаимная поддержка необходимы в трудные времена.", 
+          a: [
+            { t: "La solidarité et l'entraide sont essentielles quand on traverse des moments difficiles.", c: true },
+            { t: "La fraternité et l'aide sont nécessaires quand on a des temps durs.", c: false },
+            { t: "Être solidaires et s'aider est crucial lorsqu'on vit des moments de peine.", c: false }
+          ]},
+        { q: "Эта помощь будет способствовать укреплению дружеских отношений между нашими командами.", 
+          a: [
+            { t: "Cette intervention va aider les relations amicales de nos équipes.", c: false },
+            { t: "Cette aide va encourager des relations d'amitié entre nos deux équipes.", c: false },
+            { t: "Cette intervention va favoriser des relations amicales entre nos deux équipes.", c: true }
+          ]},
+        { q: "Ваша помощь внесет значительный вклад в развитие нашего проекта.", 
+          a: [
+            { t: "Votre aide va grandement contribuer au développement de notre projet.", c: true },
+            { t: "Votre appui va beaucoup participer à développer notre projet.", c: false },
+            { t: "Votre secours contribuera largement à l'évolution de notre plan.", c: false }
+          ]},
+        { q: "Все эти действия будут способствовать улучшению наших результатов.", 
+          a: [
+            { t: "Toutes ces actions vont aider à améliorer nos résultats.", c: false },
+            { t: "Toutes ces actions vont concourir à l'amélioration de nos résultats.", c: true },
+            { t: "Chaque action va agir pour le progrès de nos scores.", c: false }
+          ]},
+        { q: "Если вы поможете мне с коробками, это облегчит мне работу.", 
+          a: [
+            { t: "Si vous m'aidez pour les cartons, cela me facilitera la tâche.", c: true },
+            { t: "Si vous m'aidez avec les boîtes, ça me rendra le travail facile.", c: false },
+            { t: "En m'aidant pour les cartons, vous allez simplifier mon devoir.", c: false }
+          ]},
+        { q: "В будущем нам нужно будет подумать о других формах плодотворного сотрудничества.", 
+          a: [
+            { t: "Il faudra penser à d'autres manières de coopérer avec succès plus tard.", c: false },
+            { t: "Il faudra réfléchir à d'autres formes de coopération fructueuse à l'avenir.", c: true },
+            { t: "On devrait regarder d'autres types de travail commun à l'avenir.", c: false }
+          ]},
+        { q: "Есть много способов сказать, что вы готовы помочь кому-то.", 
+          a: [
+            { t: "Il y a beaucoup de chemins pour dire qu'on veut aider.", c: false },
+            { t: "Il existe de nombreuses manières de dire qu'on est prêt à aider quelqu'un.", c: true },
+            { t: "On trouve plusieurs styles pour s'offrir à aider quelqu'un.", c: false }
+          ]},
+        { q: "Александр — моя правая рука; он прекрасно знает все дела.", 
+          a: [
+            { t: "Alexandre est mon bras droit, il connaît parfaitement tous les dossiers.", c: true },
+            { t: "Alexandre est ma main droite, il sait tout sur tous les dossiers.", c: false },
+            { t: "C'est mon bras droit Alexandre, il maîtrise tous les papiers.", c: false }
+          ]},
+        { q: "Мой коллега эффективно помогает мне во всех моих повседневных задачах.", 
+          a: [
+            { t: "Mon collègue m'aide avec efficacité dans mes tâches de chaque jour.", c: false },
+            { t: "Mon partenaire me seconde bien pour mon travail quotidien.", c: false },
+            { t: "Mon collègue me seconde efficacement dans toutes mes tâches quotidiennes.", c: true }
+          ]},
+        { q: "Будьте уверены, мы будем неустанно поддерживать вас до конца.", 
+          a: [
+            { t: "Soyez rassuré, nous vous épaulerons sans relâche jusqu'au bout.", c: true },
+            { t: "Soyez sûr, nous allons vous supporter sans arrêt jusqu'à la fin.", c: false },
+            { t: "Rassurez-vous, on vous aidera sans fatigue jusqu'au terme.", c: false }
+          ]},
+        { q: "Он всегда готов помочь вам, когда придет время; не стесняйтесь обращаться к нему.", 
+          a: [
+            { t: "Il est là pour vous assister le moment venu, n'hésitez pas à lui parler.", c: true },
+            { t: "Il est prêt à vous servir quand il faut, n'ayez pas peur de lui parler.", c: false },
+            { t: "Il sera présent pour vous aider quand l'heure arrive, parlez-lui.", c: false }
+          ]},
+        { q: "Знайте, что я от всего сердца с вами в этой ситуации.", 
+          a: [
+            { t: "Sachez que je suis de tout cœur avec vous dans cette situation.", c: true },
+            { t: "Sachez que mon cœur est avec vous dans ce moment.", c: false },
+            { t: "Apprenez que je vous accompagne avec mon cœur ici.", c: false }
+          ]},
+        { q: "Хочу заверить вас в своей полной солидарности.", 
+          a: [
+            { t: "Je tiens à vous assurer de ma solidarité la plus totale.", c: true },
+            { t: "Je veux vous dire ma solidarité entière.", c: false },
+            { t: "Je désire vous assurer que je suis totalement solidaire.", c: false }
+          ]},
+        { q: "Мы очень рады внести свой вклад в эту инициативу.", 
+          a: [
+            { t: "Nous donnons notre aide à ce projet avec plaisir.", c: false },
+            { t: "Nous prêtons notre concours à cette initiative avec grand plaisir.", c: true },
+            { t: "On apporte notre contribution pour cette idée très volontiers.", c: false }
+          ]},
+        { q: "Если вам что-нибудь понадобится, я к вашим услугам.", 
+          a: [
+            { t: "Si vous voulez n'importe quoi, je suis là pour vous.", c: false },
+            { t: "Si vous avez besoin de quoi que ce soit, je me mets à votre disposition.", c: true },
+            { t: "Au besoin, je serai disponible pour vous rendre service.", c: false }
+          ]},
+        { q: "Вы можете обратиться ко мне в любое время, когда вам что-нибудь понадобится.", 
+          a: [
+            { t: "Dès que le besoin s'en fera sentir, vous pourrez faire appel à moi.", c: true },
+            { t: "Quand vous sentirez le besoin, vous pourrez m'appeler.", c: false },
+            { t: "Sitôt que nécessaire, vous pourrez me demander de l'aide.", c: false }
+          ]},
+        { q: "Я очень благодарен вам за помощь в субботу.", 
+          a: [
+            { t: "Je vous suis très reconnaissante de m'avoir donné un coup de main samedi.", c: true },
+            { t: "Je vous remercie beaucoup pour m'avoir aidé le samedi.", c: false },
+            { t: "Je suis reconnaissant pour votre main forte samedi dernier.", c: false }
+          ]},
+        { q: "Что бы ни случилось, я буду рядом, чтобы поддержать тебя.", 
+          a: [
+            { t: "N'importe quoi arrive, je reste ici pour te soutenir.", c: false },
+            { t: "Peu importe les événements, je serai avec toi pour t'aider.", c: false },
+            { t: "Quoi qu'il arrive, je reste à vos côtés pour vous soutenir.", c: true }
+          ]},
+        { q: "Не беспокойся о тяжелой мебели; ты можешь на меня рассчитывать.", 
+          a: [
+            { t: "Ne t'en fais pas pour les grands meubles, compte sur moi.", c: false },
+            { t: "Ne t'inquiète pas pour les gros meubles, tu peux compter sur moi.", c: true },
+            { t: "Pas de souci pour les meubles lourds, je suis là pour ça.", c: false }
+          ]}
     ];
 
     let currentIdx = 0;
